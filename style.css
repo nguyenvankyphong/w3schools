@@ -1,0 +1,109 @@
+.header{
+    font-size: 25px;
+    background: white;
+    
+    margin-top: 5px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    font-size: 37px;
+    letter-spacing: 3px;
+    height: 35px;
+}
+.font{
+    font-family: "Segoe UI","Arial","sans-serif";
+}
+.below {
+    background: #4CAF50;
+    width: match_parent ;
+    height: 55px;
+    position: relative;
+}
+.logo{
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: #555555;
+    margin: 4px 0 6px 0;
+
+}
+.com{
+    color: #4CAF50;
+}
+.w-left {
+    float: left;
+}
+.w-right{
+    float: right;
+}
+.dscrb {
+    margin-top: 10px;
+    color: black;
+    
+    font-size: 15px;
+    letter-spacing: 4px;
+    line-height: 1.5px;
+    position: relative;
+    float: right;
+    top: 5px;
+    box-sizing: inherit;
+  
+}
+.bar {
+    padding: 16px;
+    position: relative;
+    float: left;
+    border: none;
+    outline: none;
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: inherit;
+    
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 "Arial";
+    font-size: 20px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    transform: translate(0,0);
+}
+.fa-caret-down:before{
+    content: '\e809';
+}
+a:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.ftrans:before{
+    content: '\e0c3';
+}
+.w-card{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.close{
+    font-family: Arial;
+    font-size: 13px;
+}
+.search {
+    width: 13px;
+    height: 13px;
+    padding: 6px 27px;
+    min-width: 13px;
+    margin-top: 12px;
+    background: #555555;
+}
+.input-search{
+    width: 250px;
+    margin-top: 12px;
+    margin-right: 5px;
+    padding: 3px;
+    background: white;
+}
